@@ -1,0 +1,35 @@
+@media screen and (max-width:680px) {
+    .links li {
+      display: none;
+    }
+    .links li.icon {
+      float: right;
+      display: inline-block;
+    }
+
+  }
+  
+
+  @media screen and (max-width:680px) {
+    .links.responsive {position: relative;}
+    .links.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .links.responsive li {
+      float: none;
+      
+      display: inline;
+    }
+    .links.responsive li a {
+      display: block;
+      background-color: black;
+      text-align: left;
+    }
+    .links.responsive li a:hover {
+        color: black;
+        background-color: white;
+        font-weight: bold;
+      }
+  }
